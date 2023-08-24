@@ -1,0 +1,15 @@
+
+const btn =document.querySelector('.btn');
+
+
+ btn.addEventListener('click',(e)=>{
+    e.preventDefault();
+    var Name=document.getElementById('name').value;
+    var Email=document.getElementById('email').value;
+ 
+    
+    localStorage.setItem("name",Name);
+})
+
+
+ 
